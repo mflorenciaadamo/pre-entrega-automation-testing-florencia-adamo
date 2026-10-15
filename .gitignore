@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# Entornos virtuales
+venv/
+.venv/
+env/
+
+# IDEs
+.vscode/
+.idea/
+
+# Reportes y logs temporales (mantener carpeta assets)
+reports/*.html
+reports/ejecucion.log
+reports/screenshots/*.png
+!reports/assets/
+!reports/assets/style.css
+
